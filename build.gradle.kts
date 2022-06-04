@@ -32,6 +32,8 @@ dependencies {
 	runtimeOnly("com.h2database:h2")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("com.ninja-squad:springmockk:3.1.1")
+
 }
 
 tasks.withType<KotlinCompile> {
